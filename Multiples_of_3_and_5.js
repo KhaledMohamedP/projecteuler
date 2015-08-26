@@ -16,8 +16,12 @@ function multiples(num) {
     		sum += i; 
     	}
     }
-    return sum
+    return sum;
 }
 
 console.log(multiples(1000))
 
+/*
+Approach # 2
+	
+*/
