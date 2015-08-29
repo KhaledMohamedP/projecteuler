@@ -128,7 +128,7 @@ function maxDiagonallyLeft(matrix) {
     var product = 1,
         max = 0;
     for (var i = 0; i < matrix.length - 3; i++) {
-        for (var j = 4; j < matrix[i].length - 3; j++) {
+        for (var j = 4; j < matrix[i].length; j++) {
             product = 1;
             for (var k = 0; k < 4; k++) {
                 product *= matrix[i + k][j - k];
